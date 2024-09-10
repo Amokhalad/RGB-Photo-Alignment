@@ -1,1 +1,0 @@
-# RGB-Photo-Alignment
