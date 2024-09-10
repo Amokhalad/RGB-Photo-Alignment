@@ -40,10 +40,10 @@ const Method: React.FC = () => {
                 <figure className="image-gallery">
                     <div className="images-container">
                         <div className="img-md image-container">
-                            <img src="/figures/monastery.jpg" alt="Aligned Monastery Image" className='img-fluid' />
+                            <img src="./figures/monastery.jpg" alt="Aligned Monastery Image" className='img-fluid' />
                         </div>
                         <div className="img-md image-container">
-                            <img src="/figures/tobolsk.jpg" alt="Aligned Harvesters Image" className='img-fluid' />
+                            <img src="./figures/tobolsk.jpg" alt="Aligned Harvesters Image" className='img-fluid' />
                         </div>
                     </div>
                     <figcaption>
@@ -93,7 +93,7 @@ const Method: React.FC = () => {
 
                 <figure>
                     <div className="img-md image-container">
-                        <img src="/experiments/emir_color.jpg" alt="Misaligned photo due to high intensity colors in red channel" className='img-fluid' />
+                        <img src="./experiments/emir_color.jpg" alt="Misaligned photo due to high intensity colors in red channel" className='img-fluid' />
                     </div>
                     <figcaption><b>Figure 3</b>: Misaligned photo due to high intensity in the red channel.</figcaption>
                 </figure>
@@ -104,7 +104,7 @@ const Method: React.FC = () => {
 
                 <figure>
                     <div className='img-md image-container'>
-                        <img src="/experiments/emir_edges_r.jpg" alt="Edges of the red channel" className='img-fluid' />
+                        <img src="./experiments/emir_edges_r.jpg" alt="Edges of the red channel" className='img-fluid' />
                     </div>
                     <figcaption><b>Figure 4</b>: Edge-detected red channel, leading to successful alignment.</figcaption>
                 </figure>

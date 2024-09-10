@@ -13,7 +13,7 @@ const Results: React.FC = () => {
     useEffect(() => {
         const fetchImageData = async () => {
             try {
-                const response = await fetch('/imageData.json');
+                const response = await fetch('./imageData.json');
                 if (!response.ok) {
                     throw new Error('Failed to load image data');
                 }

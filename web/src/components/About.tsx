@@ -20,16 +20,16 @@ const About: React.FC = () => {
             <figure className="image-gallery">
                 <div className="images-container">
                     <div className="image-container">
-                        <img className="img-fluid" src="/data/lady.jpg" alt="Prokudin-Gorskii's Church Image" />
+                        <img className="img-fluid" src="./data/lady.jpg" alt="Prokudin-Gorskii's Church Image" />
                     </div>
                     <div className="image-container">
-                        <img className="img-fluid" src="/data/emir.jpg" alt="Prokudin-Gorskii's Emir Image" />
+                        <img className="img-fluid" src="./data/emir.jpg" alt="Prokudin-Gorskii's Emir Image" />
                     </div>
                     <div className="image-container">
-                        <img className="img-fluid" src="/data/harvesters.jpg" alt="Prokudin-Gorskii's Harvesters Image" />
+                        <img className="img-fluid" src="./data/harvesters.jpg" alt="Prokudin-Gorskii's Harvesters Image" />
                     </div>
                     <div className="image-container">
-                        <img className="img-fluid" src="/data/icon.jpg" alt="Prokudin-Gorskii's Icon Image" />
+                        <img className="img-fluid" src="./data/icon.jpg" alt="Prokudin-Gorskii's Icon Image" />
                     </div>
                 </div>
                 <figcaption>
